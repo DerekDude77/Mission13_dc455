@@ -1,0 +1,82 @@
+.h1 {
+  font-family: fantasy;
+  font-size: 2.5em;
+  color: #000000;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.2;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline;
+  text-align: start;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-color: #000000;
+  text-decoration-skip-ink: auto;
+  text-underline-position: auto;
+  text-underline-offset: auto;
+  text-rendering: auto;
+  text-size-adjust: auto;
+  text-orientation: mixed;
+}
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.alignSelfCenter {
+  align-self: center;
+}
+
+.textStart {
+  text-align: left;
+}
+
+.banner {
+  background-color: #f8f9fa;
+  padding: 40px;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #6c757d;
+}

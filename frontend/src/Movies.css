@@ -1,0 +1,30 @@
+.movies-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 40px;
+}
+
+.movies-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.movies-table {
+  width: 100%;
+  max-width: 1200px;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.movies-add-btn {
+  margin-top: 20px;
+}
